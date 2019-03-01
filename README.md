@@ -31,11 +31,11 @@ What happens to your program if the user enters an invalid number (for example `
 <details>
     <summary>Small hint</summary>
 
-    You should probably use a for-loop for the first part.
+    You can use a for-loop for the first part.
 
     To check if a number is divisible by 3 (or 5) the modulo operator will come in handy.
 
-    For the last part, you'll need to combine some conditional statements with the `hasNextInt` method on `Scanner`.
+    For the last part, you can combine some conditional statements with the `hasNextInt` method on `Scanner`.
 </details>
 
 ## Leaping for joy
@@ -49,7 +49,7 @@ Remember that a year is a leap year if it is a multiple of 4, except years that 
 
     Be careful when checking if a year is a leap year - it's a little bit fiddly!
 
-    You'll need to keep track of how many leap years you've found so far so that your program knows when to stop.
+    You should keep track of how many leap years you've found so far so that your program knows when to stop.
 
 </details>
 
@@ -88,7 +88,7 @@ Write a program that asks the user for a string and checks to see if it is a pal
 <details>
     <summary>Small hint</summary>
 
-    The easiest way to do this is probably to just reverse the string, and check if the result is equal to the original string.
+    One approach is to reverse the string, and check if the result is equal to the original string.
 </details>
 
 ## How many rabbits?
@@ -107,7 +107,7 @@ Then make your program print out all of those Fibonacci numbers on the same line
     To print them on one line look at the difference between `System.out.println` and `System.out.print`.
 </details>
 
-## Nicely framed
+## You've Been Framed!
 
 Write a program that lets the user enter a list of words on one line (with spaces between). Your program should then print out their words formatted in a rectangular frame. For example, the list of words "Hello World in a frame" gets displayed as:
 
@@ -132,6 +132,8 @@ Write a program that lets the user enter a list of words on one line (with space
 Write a program that reads some text from a file and translates it to Pig Latin.
 
 Pig Latin is where you take the first letter of each word, move it to the end of the word, and add 'ay' to it. For example, "Pig Latin" becomes "Igpay Atinlay".
+
+This is only a simplified form of Pig Latin. There are some more complicated rules [here](https://en.wikipedia.org/wiki/Pig_Latin#Rules). How many of them can you include in your program?
 
 <details>
     <summary>Small hint</summary>
