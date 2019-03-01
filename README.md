@@ -4,6 +4,8 @@ Here is a collection of mini-problems for you to solve in Java intended to give 
 
 To save yourself from having to create a new project for each problem (that would be a lot of projects!) keep all of the problems together in one project but create a new class (with its own `main` method) for each mini-problem. Ask for some help if you're not sure what this means.
 
+Try to solve each problem without the hint if you can, but don't worry if you get stuck and need to look at it for a few pointers.
+
 ## Greetings!
 
 Write a program that asks the user for their name and then greets them with their name.
