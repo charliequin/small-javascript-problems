@@ -1,6 +1,6 @@
 # Java mini-problems
 
-Here is a collection of mini-problems for you to solve in Java intended to give you a firm grasp of the basics before moving onto anything more complicated.
+Here is a collection of mini-problems to give you a chance to flex your Java muscles and get comfortable with the core language.
 
 To save yourself from having to create a new project for each problem (that would be a lot of projects!) keep all of the problems together in one project but create a new class (with its own `main` method) for each mini-problem. Ask for some help if you're not sure what this means.
 
