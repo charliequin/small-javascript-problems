@@ -127,6 +127,22 @@ Write a program that lets the user enter a list of words on one line (with space
     You'll need to work out how wide the frame should be before you start writing it out!
 </details>
 
+## Your guess is as good as mine!
+
+Write a program that creates a secret random number between 1 and 100 and asks the user to guess it. After each guess, it should tell the user if their guess was too big, too small, or exactly right.
+
+Write another program that asks the user to think of a secret number (but they shouldn't tell the program what it is!) and then the program tries to guess it. After each guess the program makes, the user needs to tell the program if the guess was too big, too small, or exactly right.
+
+Can you make your program always succeed in 8 guesses? Can you make your program detect when the user has lied to it?
+
+<details>
+    <summary>Small hint</summary>
+
+    There's a lot going on here. The first part is definitely simpler so start there. You'll need to ask your user for input within a loop and break out of the loop when they guess correctly.
+
+    For the second part, start by thinking about how you would play the game if you took the place of your program. What information do you keep track of as the game goes on? Make sure your program keeps track of the same information.
+</details>
+
 ## Igpay Atinlay
 
 Write a program that reads some text from a file and translates it to Pig Latin.
@@ -138,7 +154,7 @@ This is only a simplified form of Pig Latin. There are some more complicated rul
 <details>
     <summary>Small hint</summary>
 
-    There are lots of parts here so it might be worth having several different functions.
+    There are lots of parts to this so it might be worth having several different functions.
 
     Start by having a function which reads the entire text of a file.
 
