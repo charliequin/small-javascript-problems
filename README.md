@@ -1,8 +1,8 @@
-# Java mini-problems
+# Javascript mini-problems
 
-Here is a collection of mini-problems to give you a chance to flex your Java muscles and get comfortable with the core language.
+Here is a collection of mini-problems to give you a chance to flex your Javascript muscles and get comfortable with the core language.
 
-To save yourself from having to create a new project for each problem (that would be a lot of projects!) keep all of the problems together in one project but create a new class (with its own `main` method) for each mini-problem. Ask for some help if you're not sure what this means.
+To save yourself from having to create a new project for each problem (that would be a lot of projects!) keep all of the problems together in one project but create a new `.js` file for each mini-problem.
 
 Try to solve each problem without the hint if you can, but don't worry if you get stuck and need to look at it for a few pointers.
 
@@ -35,7 +35,7 @@ What happens to your program if the user enters an invalid number (for example `
 
     To check if a number is divisible by 3 (or 5) the modulo operator will come in handy.
 
-    For the last part, you can combine some conditional statements with the `hasNextInt` method on `Scanner`.
+    For the last part, you can combine some conditional statements with +variable to convert a string to a number and the isNaN() function to check if the value is 'Not A Number'
 </details>
 
 ## Leaping for joy
@@ -103,8 +103,6 @@ Then make your program print out all of those Fibonacci numbers on the same line
     <summary>Small hint</summary>
 
     Calculating the numbers is just a case of careful implementation.
-
-    To print them on one line look at the difference between `System.out.println` and `System.out.print`.
 </details>
 
 ## You've Been Framed!
