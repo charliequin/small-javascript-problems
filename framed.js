@@ -1,5 +1,7 @@
 const readlineSync = require('readline-sync');
 
+
+
 // Takes user input and prints output.
 function framed() {
 
@@ -19,28 +21,48 @@ function framed() {
 
     for (i = 0; i < sortArray.length; i++) {
         console.log('* ' + (sortArray[i].padEnd(maxChar, ' ') + '*'));
-        // console.log('* ' + sortArray[i] + ' *');
     };
 
     // Bottom Box border.
     console.log(boxPad.repeat(maxCharPadding));
 };
 
-framed();
 
 
-// Finds the highest value in the 
+// Alternative function to use instead of Math.max function.
+function max(wordArray) {
+
+    let longest = 0;
+
+    for (i = 0; i < wordArray.length; i++) {
+
+        if (longest < wordArray[i]) {
+            longest = wordArray[i];
+        };
+    };
+    return longest;
+};
+
+
+
+// Finds the highest value in the argument array. Using Max instead of Math.max.
 function longestItem(wordArray) {
 
     let lengthArray = [];
 
     // Gets the length of each array item.
-    wordArray.forEach(element => {
-        lengthArray.push(element.length);
-    });
+    for (i = 0; i < wordArray.length; i++) {
+        lengthArray.push(wordArray[i].length);
+    };
 
     // Determines the highest value in the length array.
-    let maxChar = Math.max(...lengthArray);
+    let maxChar = max(lengthArray);
 
     return maxChar;
 };
+
+
+
+
+// Executes the main function.
+framed();
