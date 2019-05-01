@@ -28,8 +28,6 @@ for (let i = 0; i <= 10; i++) {
         console.log('\nI win!');
         console.log('I took '+ i + ' attempts.')
         break;
-    } else {
-        console.log("\nYou're cheating, aren't you?");
     }
 }
 
